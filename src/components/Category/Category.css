@@ -1,0 +1,40 @@
+.categories {
+  position: relative;
+  height: 3rem;
+  margin-top: 5rem;
+  padding: 0.56rem 0.3rem;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.category {
+  display: inline-block;
+  margin-right: 0.4rem;
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: solid 1.5px #ebebeb;
+  background-color: #fff;
+  font-weight: 500;
+  color: #2a2a2e;
+  cursor: pointer;
+}
+
+.active {
+  color: #fff;
+  background-color: #009372;
+}
+
+.arrowright {
+  position: absolute;
+  right: 0rem;
+  top: 0.2rem;
+  background-color: #fff;
+  height: 100%;
+  width: 2rem;
+  display: grid;
+  place-items: center;
+  box-shadow: -20px -1px 22px 10px white;
+  cursor: pointer;
+}

@@ -1,0 +1,93 @@
+.header {
+  width: calc(100% - 4.375rem);
+  height: 80px;
+  /* padding: 13px 50px 18px 16px; */
+  background-color: var(--clr-green);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.middle {
+  flex: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  padding: 0rem 0.7rem;
+  border-radius: 20px;
+  background-color: #fff;
+  gap: 0.5rem;
+}
+
+.middle input {
+  flex: 1;
+  border: none;
+  color: gray;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.user,
+.messanger {
+  position: relative;
+  cursor: pointer;
+}
+
+.notification {
+  cursor: pointer;
+  position: relative;
+}
+
+.total__messages,
+.total__notifications {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: var(--clr-red);
+  color: var(--clr-white);
+  padding: 1px 7px;
+  border-radius: 5rem;
+  font-weight: 500;
+}
+
+.left {
+  margin-left: 2rem;
+}
+
+.switch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px;
+  border-radius: 20px;
+  box-shadow: 0 2px 0 0 #009d79, inset 0 2px 0 0 #006c53;
+  background-color: #00775c;
+  font-weight: bold;
+  color: #fff;
+}
+
+.activelink {
+  padding: 9px 14px;
+  border-radius: 17px;
+  box-shadow: 0 2px 0 0 #006c53, inset 0 2px 0 0 #009d79;
+  background-color: #009372;
+}
+
+.activity,
+.explore {
+  cursor: pointer;
+}
+
+.activity {
+  margin: 0 0.6rem;
+}
