@@ -26,7 +26,7 @@ function Card({ logo, banners, companyName, companyShortDesc,productGroups, addr
             </h1>
             <div className="details">
                 <div className="location">
-                {addresses[0].city}, {addresses[0].country}
+                {addresses[0]?.city}, {addresses[0]?.country}
                 </div>
                 <span className="quantity">
                     Min Qty: {minOrderQty}
